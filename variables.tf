@@ -82,3 +82,12 @@ variable "eks_encryption" {
     kms_arn = "arn:aws:kms:us-east-1:339712780682:key/5fb373c0-e47b-4c88-9626-748196ac1760"
   }
 }
+variable "aws_access_key" {
+  description = "사용하는 account access key"
+  type = string
+}
+
+variable "aws_secret_key" {
+  description = "사용하는 account secret key"
+  type = string
+}
