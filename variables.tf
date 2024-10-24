@@ -91,3 +91,7 @@ variable "aws_secret_key" {
   description = "사용하는 account secret key"
   type = string
 }
+
+variable "aws_default_region" {
+  type = string
+}
